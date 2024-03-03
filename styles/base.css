@@ -1,0 +1,92 @@
+/* Setting values */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* FONT */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+header {
+    background-color: #6a2f2f;
+    color: #fff;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+header img {
+    margin: 0 1rem;
+    
+}
+
+main {
+    margin: 1rem 2vw;
+    max-width: 800px;
+}
+
+main h1 {
+    padding: .7rem;
+    border-bottom: 1px solid#6a2f2f;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+
+
+/* SECTIONS INSIDE THE MAIN */
+.card {
+    border: 1px solid #bbb;
+    border-radius: 10px;
+    margin: 1rem 0;
+    overflow: hidden;
+}
+
+.card h2 {
+    background-color: #6a2f2f;
+    color: #fff;
+    display: block;
+    padding: .7rem 0;
+    text-align: center;
+}
+.card p {
+    padding: 10px;
+    text-align: center;
+}
+
+/* HEADER NAVS */
+nav {
+    background-color: #bdad75;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: .5rem;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, .2);
+}
+
+nav .active {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+footer {
+    text-align: center;
+    padding: .7rem;
+    background-color: #6a2f2f;
+    color: #fff;    
+}
