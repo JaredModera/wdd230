@@ -8,7 +8,7 @@
 /* FONT */
 body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 header {
@@ -22,6 +22,7 @@ header {
 
 header img {
     margin: 0 1rem;
+    box-shadow: 1px 1px 10px black;
     
 }
 
@@ -60,7 +61,7 @@ main h1 {
 
 /* HEADER NAVS */
 nav {
-    background-color: #bdad75;
+    background-color: #304f3e;
     margin: 0 auto;
 }
 
@@ -70,11 +71,10 @@ nav ul {
 
 nav a {
     display: block;
-    color: #252323;
+    color: #fff;
     text-align: center;
     padding: .5rem;
     text-decoration: none;
-    font-weight: 400;
 }
 
 nav a:hover {
