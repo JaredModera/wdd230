@@ -29,6 +29,9 @@ header img {
 main {
     margin: 1rem 2vw;
     max-width: 800px;
+    /* margin: 0 auto;
+    text-align: left; */
+    
 }
 
 main h1 {
