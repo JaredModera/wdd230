@@ -28,19 +28,19 @@
    * Render the `main` element consistently in IE.
    */
   
-  main {
+  /* main {
     display: block;
-  }
+  } */
   
   /**
    * Correct the font size and margin on `h1` elements within `section` and
    * `article` contexts in Chrome, Firefox, and Safari.
    */
   
-  h1 {
+  /* h1 {
     font-size: 2em;
     margin: 0.67em 0;
-  }
+  } */
   
   /* Grouping content
      ========================================================================== */
@@ -188,16 +188,6 @@
     text-transform: none;
   }
   
-  /**
-   * Correct the inability to style clickable types in iOS and Safari.
-   */
-  
-  button,
-  [type="button"],
-  [type="reset"],
-  [type="submit"] {
-    -webkit-appearance: button;
-  }
   
   /**
    * Remove the inner border and padding in Firefox.
@@ -282,15 +272,6 @@
     height: auto;
   }
   
-  /**
-   * 1. Correct the odd appearance in Chrome and Safari.
-   * 2. Correct the outline style in Safari.
-   */
-  
-  [type="search"] {
-    -webkit-appearance: textfield; /* 1 */
-    outline-offset: -2px; /* 2 */
-  }
   
   /**
    * Remove the inner padding in Chrome and Safari on macOS.

@@ -8,12 +8,21 @@
     .card {
         box-shadow: 1px 1px 10px black;
     }
-
-    nav ul {
+    
+    .navigation ul {
         display: flex;
     }
+	.navigation li {
+		display: block; /* change state in small view */
+        flex: 1 1 100%;
+	}
+    
+    .navigation a {
+		text-align: center;
+        /* display: block; */
+	}
 
-    nav ul li {
-        flex: 1 1 100%            
-    }
+	#menu {
+		display: none;
+	}
 }
