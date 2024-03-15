@@ -51,11 +51,11 @@ main h1 {
     margin: 1rem 0;
     overflow: hidden;
 }
-
-.card ul {
+.card li {
     padding: 10px;
     text-align: center;
 }
+
 .card a {
     color: #000;
 }
