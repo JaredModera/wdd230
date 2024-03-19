@@ -162,6 +162,9 @@ nav {
     margin: 0 auto;
     padding: 1.5rem;
 }
+.map iframe {
+    width: 100%;
+}
 
 .label {
 	font-family: Arial, sans-serif;
