@@ -1,10 +1,12 @@
 @media only screen and (min-width: 600px) {
 
-    main div{
+    .index_div {
         display: grid;
-        grid-template-columns: 2fr 1fr;
+        grid-template-columns: 1fr 1fr;
         column-gap: 10px;
     }
+
+    /* Index cards */
     .card {
         box-shadow: 1px 1px 10px black;
     }
@@ -19,7 +21,22 @@
     .card_2 h2 {
         grid-column: 1/4;
     }
-    
+
+    /* Discover page */
+    .main_side {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .side_content {
+        grid-column: 1 / 1;
+        margin: 0 1rem;
+    }
+
+    .discover_img {
+        grid-column: 2 / 3;
+    }
+
+
     .navigation ul {
         display: flex;
     }
