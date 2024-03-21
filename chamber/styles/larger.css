@@ -36,6 +36,11 @@
         grid-column: 2 / 3;
     }
 
+    /* Hover */
+.discover_img img:hover {
+    transform: scale(1.1);
+}
+
 
     .navigation ul {
         display: flex;
