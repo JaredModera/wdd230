@@ -1,0 +1,53 @@
+ :root {
+	--back: #1e583b;
+    --back2: #5a7e61;
+	--forelight: #ffffff;
+	--border: #5b5a56;
+	--shadow: #808080;
+	--zebra: #ededed;
+}
+
+body {
+	font-family: "EB Garamond", Arial, serif;
+}
+
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 10px var(--shadow);
+	border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+	font-size: .85rem;
+    caption-side: bottom;
+}
+tr:first-child th {
+    color: var(--forelight);
+    background-color: var(--back);
+}
+
+.thead_2 {
+    background-color: var(--back);
+}
+
+th, td {
+    padding: 7px 15px;
+	border: 1px solid var(--back);
+}
+
+th {
+    background-color: var(--back2);
+    color: var(--forelight);
+    font-size: larger;
+}
+
+td {
+    text-align: center;
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--zebra);
+}
